@@ -1,23 +1,25 @@
 import React, { useState, useEffect } from "react";
-import PortfolioItem from "./PortfolioItem";
+import ProjectItem from "./ProjectItem";
+import picture from "../assets/images/face.JPG";
 import "./style.css";
 import AOS from "aos";
 
-function Portfolio() {
+function Projects() {
 
   const [state, setState] = useState([]);
 
   useEffect(() => {
-    setState(PortfolioItems);
+    setState(ProjectItems);
     AOS.init();
     AOS.refresh();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const PortfolioItems = [
+  const ProjectItems = [
     {
       id: 1,
       name: "Work Bytes",
-      image: "https://media-cdn.grubhub.com/image/upload/c_scale,w_1650/q_50,dpr_auto,f_auto,fl_lossy,c_crop,e_vibrance:20,g_center,h_900,w_800/v1539269005/Onboarding/SL/burger-and-fries.jpg",
+      image: <img src={picture} alt="me"></img>,
       tech: "jQuery / Materialize",
       link: "https://relizabet.github.io/Work_Bytes/",
       github: "https://github.com/dylanbest15/Work-Bytes",
@@ -56,7 +58,7 @@ function Portfolio() {
         <div className="row">
 
           {state.map(item => (
-            <PortfolioItem
+            <ProjectItem
               name={item.name}
               tech={item.tech}
               image={item.image}
@@ -70,3 +72,5 @@ function Portfolio() {
     </section>
   )
 }
+
+export default Projects;

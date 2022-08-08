@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 
-function PortfolioItem(props) {
+function ProjectItem(props) {
 
   useEffect(() => {
     AOS.init();
@@ -23,4 +23,4 @@ function PortfolioItem(props) {
   )
 }
 
-export default PortfolioItem;
+export default ProjectItem;

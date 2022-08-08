@@ -1,36 +1,22 @@
-* {
-  padding: 0;
-  margin: 0;
+html {
+  scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color:#F2EBEC!important;
-  font-family: 'Raleway', sans-serif;
+section {
+  display: flex;
+  min-height: 650px;
+  text-align: center;
 }
 
-/* hide scrollbar */
-body::-webkit-scrollbar {
-  display: none;
+div.page-container {
+  padding-top: 100px;
+  position: relative;
 }
 
-body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-code {
-  font-family: 'Raleway', sans-serif;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1280px;
-}
-
-p {
-  font-family: 'Raleway', sans-serif;
+div.page-container h1 {
+  font-size: 36px;
+  width: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #24a0ed;
 }

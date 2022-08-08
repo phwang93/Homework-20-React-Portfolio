@@ -5,23 +5,17 @@ import './style.css';
 
 const Home = () => {
     return (
-        <div className="home">
-            <div className="title">
-                <h1>
-                    <h4 className="subtitle">Hello, my name is</h4>
-                    <h1>Philip <span id="ln">Hwang</span></h1>
-                    <h4 className="subtitle">I'm a Full Stack Web Developer</h4>
-                </h1>
-                <Link to="/about">
-                    <button>Who am I?</button>
-                </Link>
-            </div>
-            <div className="person">
-                <img src={`${process.env.PUBLIC_URL}/assets/images/me.PNG`}
-                    alt="Me"
-                />
-            </div>
+        <section id="home">
+
+        <div className="container home-container">
+          <h1 className="animate__animated animate__fadeIn">Hi, I'm <span className="name">Philip Hwang.</span></h1>
+          <h2 className="animate__animated animate__fadeIn">I'm a full-stack web developer.</h2>
+          <a href="#about" className="animate__animated animate__fadeIn"> 
+            <button className="btn btn-primary">Who am I?
+            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i></button></a>
         </div>
+  
+      </section>
     )
 }
 

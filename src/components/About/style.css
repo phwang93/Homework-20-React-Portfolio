@@ -1,0 +1,47 @@
+section#about img {
+    width: 70%;
+    height: auto;
+    box-shadow: 1px 2px darkgray;
+    margin-bottom: 30px;
+    position: relative;
+    left: 75px;
+  }
+  
+  section#about div.p-column {
+    padding: 8px;
+    text-align: justify;
+  }
+  
+  div.icon-row {
+    margin-bottom: 50px;
+  }
+  
+  div.circle {
+    background-color: #8ee4ef;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 2px 4px #24a0ed;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  h2.responsive {
+    font-size: 20px;
+    position: relative;
+  }
+  
+  h2.intuitive {
+    font-size: 20px;
+    position: relative;
+    left: 14px;
+  }
+  
+  h2.dynamic {
+    font-size: 20px;
+    position: relative;
+    left: 11px;
+  }

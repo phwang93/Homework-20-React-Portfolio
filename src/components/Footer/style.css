@@ -25,3 +25,8 @@ footer {
     transform: scale(1.2);
     color: #24a0ed;
   }
+
+  footer p {
+      color: midnightblue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }

@@ -1,0 +1,21 @@
+nav {
+  background-color: midnightblue;
+}
+
+nav a {
+  color: azure;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+  color: azure;
+}
+
+nav i {
+  margin: 10px;
+}
+
+nav i:hover {
+  transform: scale(1.2);
+  color: azure;
+}

@@ -13,7 +13,7 @@ function Contact() {
     <section id="contact">
 
       <div className="container page-container">
-        <h1 data-aos="fade-up">Contact me.</h1>
+        <h1 data-aos="fade-up">Contact Me</h1>
         <p>I'm always looking for new projects and career opportunities. <br />
           If you want to hire me, work together, or ask me any questions, shoot me a message. </p>
 

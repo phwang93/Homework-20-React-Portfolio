@@ -1,10 +1,11 @@
 section#about img {
     width: 70%;
     height: auto;
-    box-shadow: 1px 2px darkgray;
+    box-shadow: 4px 8px darkcyan;
     margin-bottom: 30px;
     position: relative;
     left: 75px;
+    border-radius: 10px;
   }
   
   section#about div.p-column {
@@ -17,7 +18,7 @@ section#about img {
   }
   
   div.circle {
-    background-color: #8ee4ef;
+    background-color: midnightblue;
     color: white;
     border-radius: 50%;
     width: 100px;

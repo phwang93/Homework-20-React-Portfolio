@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ProjectItem from "./ProjectItem";
-import picture from "../assets/images/face.JPG";
 import "./style.css";
 import AOS from "aos";
 
@@ -18,8 +17,8 @@ function Projects() {
   const ProjectItems = [
     {
       id: 1,
-      name: "Work Bytes",
-      image: <img src={picture} alt="me"></img>,
+      name: 'Work Bytes',
+      image: "https://www.referenceforbusiness.com/photos/outdoor-adventure-travel-company-694.jpg",
       tech: "jQuery / Materialize",
       link: "https://relizabet.github.io/Work_Bytes/",
       github: "https://github.com/dylanbest15/Work-Bytes",
@@ -47,6 +46,22 @@ function Projects() {
       tech: "Express / MongoDB",
       link: "https://warm-spire-59876.herokuapp.com/",
       github: "https://github.com/dylanbest15/Fitness-Tracker"
+    },
+    {
+        id: 4,
+        name: "Fitness Tracker",
+        image: "https://www.medibank.com.au/content/dam/livebetter/en/images/migrated/50e391fd048f7ca173459df82eff345e/Lightning_workout_Compressed.jpg",
+        tech: "Express / MongoDB",
+        link: "https://warm-spire-59876.herokuapp.com/",
+        github: "https://github.com/dylanbest15/Fitness-Tracker"
+    },
+    {
+        id: 4,
+        name: "Fitness Tracker",
+        image: "https://www.medibank.com.au/content/dam/livebetter/en/images/migrated/50e391fd048f7ca173459df82eff345e/Lightning_workout_Compressed.jpg",
+        tech: "Express / MongoDB",
+        link: "https://warm-spire-59876.herokuapp.com/",
+        github: "https://github.com/dylanbest15/Fitness-Tracker"
     }
   ]
 
@@ -54,7 +69,7 @@ function Projects() {
     <section id="portfolio">
 
       <div className="container page-container portfolio-container">
-        <h1 data-aos="fade-up">My portfolio.</h1>
+        <h1 data-aos="fade-up">Portfolio</h1>
         <div className="row">
 
           {state.map(item => (

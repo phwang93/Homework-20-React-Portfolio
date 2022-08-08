@@ -22,9 +22,8 @@ function Navbar() {
 
       <a href="https://github.com/pshwang93"><i class="fa fa-github fa-lg" aria-hidden="true"></i> </a>
       <a href="https://www.linkedin.com/in/philipshwang/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> </a>
-      <a href= {Pdf} target="Resume.pdf"><i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i> </a>
       <a href="mailto:pshwang93@gmail.com"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i> </a>
-
+      <a href= {Pdf} target="Resume.pdf"><i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i> </a>
     </nav>
   )
 }

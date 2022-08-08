@@ -1,6 +1,5 @@
 div.home-container {
     padding-top: 175px;
-    background: midnightblue;
   }
   
   section#home h1 {
@@ -24,7 +23,7 @@ div.home-container {
   }
     
   section#home button:hover {
-    background-color: #8ee4ef;
+    background-color: midnightblue;
     color: white;
   }
   
@@ -33,23 +32,6 @@ div.home-container {
   }
   
   span.name {
-    color: #24a0ed;
+    color: midnightblue;
     font-size: 48px;
   }
-
-@media (min-width: 800px) {
-    .home {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .home .title,
-    .home .person {
-        width: 50%;
-        margin-top: 0;
-        text-align: left;
-        font-size: 25px;
-    }
-    .home .person img {
-    width: 100%;
-    }
-}

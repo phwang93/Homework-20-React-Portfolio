@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Pdf from "../../assets/Dylan-Best-Resume.pdf";
+import Pdf from "../../assets/images/Resume.pdf";
 
 function Navbar() {
   return (
@@ -20,10 +20,10 @@ function Navbar() {
         </ul>
       </div>
 
-      <a href="https://github.com/dylanbest15"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/dylanbest15/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-      <a href= {Pdf} target="Dylan-Best-Resume.pdf"><i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i></a>
-      <a href="mailto:best.dylan15@gmail.com"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+      <a href="https://github.com/pshwang93"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/philipshwang/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+      <a href= {Pdf} target="Resume.pdf"><i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i></a>
+      <a href="mailto:pshwang93@gmail.com"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
 
     </nav>
   )

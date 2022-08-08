@@ -1,0 +1,27 @@
+footer {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  footer i.back-to-top {
+    position: relative;
+    top: 25px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  footer i.back-to-top:hover {
+    color: #24a0ed;
+    transform: scale(1.2);
+  }
+  
+  i.social-link {
+    margin: 25px;
+    color: black;
+  }
+  
+  i.social-link:hover {
+    transform: scale(1.2);
+    color: #24a0ed;
+  }

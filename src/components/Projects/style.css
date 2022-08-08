@@ -7,7 +7,7 @@ div.item-container {
   
   img {
     opacity: 1;
-    display: block;
+    display: flexbox;
     width: 100%;
     height: 275px;
     transition: .5s ease;
@@ -37,8 +37,8 @@ div.item-container {
   
   div.middle p.text-tech {
     font-size: 14px;
-    color: #24a0ed;
-    font-style: italic;
+    color: midnightblue;
+    font-weight: bold;
   }
   
   div.middle button {

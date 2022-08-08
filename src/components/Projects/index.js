@@ -17,27 +17,27 @@ function Projects() {
   const ProjectItems = [
     {
       id: 1,
-      name: 'Work Bytes',
-      image: "https://www.referenceforbusiness.com/photos/outdoor-adventure-travel-company-694.jpg",
-      tech: "jQuery / Materialize",
-      link: "https://relizabet.github.io/Work_Bytes/",
-      github: "https://github.com/dylanbest15/Work-Bytes",
+      name: 'Watch and Sell',
+      image: "https://github.com/phwang93/Project-2-Watch-and-Sell/blob/main/public/imgs/app.png?raw=true",
+      tech: "MySQL / HandleBars / Node.js / Express",
+      link: "https://watch-sell-app.herokuapp.com/",
+      github: "https://github.com/phwang93/Project-2-Watch-and-Sell",
     },
     {
       id: 2,
-      name: "Outdoor Adventure Buddies",
-      image: "https://www.referenceforbusiness.com/photos/outdoor-adventure-travel-company-694.jpg",
-      tech: "Handlebars / MySQL",
-      link: "https://whispering-castle-57159.herokuapp.com/",
-      github: "https://github.com/dylanbest15/Outdoor-Adventure-Buddies"
+      name: "ReadMe Generator",
+      image: "https://github.com/phwang93/Homework-9-README.md-Generator/blob/main/assets/demo/demo.gif?raw=true",
+      tech: "Node.js / Inquirer.js",
+      link: "https://github.com/phwang93/Homework-9-README.md-Generator/blob/main/assets/demo/demo.gif",
+      github: "https://github.com/phwang93/Homework-9-README.md-Generator"
     },
     {
       id: 3,
-      name: "Job Trackr",
-      image: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F669868153%2F0x0.jpg%3Ffit%3Dscale",
+      name: "Team Generator",
+      image: "https://github.com/phwang93/Homework-10-OOP-Engineering-Team/blob/main/imgs/demo2.gif?raw=true",
       tech: "React.js / MySQL",
-      link: "https://whispering-woodland-82554.herokuapp.com/",
-      github: "https://github.com/dylanbest15/Job-Trackr"
+      link: "https://github.com/phwang93/Homework-10-OOP-Engineering-Team/blob/main/imgs/demo2.gif",
+      github: "https://github.com/phwang93/Homework-10-OOP-Engineering-Team"
     },
     {
       id: 4,

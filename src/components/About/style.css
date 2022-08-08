@@ -4,7 +4,7 @@ section#about img {
     box-shadow: 4px 8px darkcyan;
     margin-bottom: 30px;
     position: relative;
-    left: 75px;
+    left: auto;
     border-radius: 10px;
   }
   
@@ -30,19 +30,20 @@ section#about img {
     margin-bottom: 15px;
   }
   
-  h2.responsive {
+  h2.tech {
     font-size: 20px;
     position: relative;
+    left: 28px;
   }
   
-  h2.intuitive {
+  h2.business {
     font-size: 20px;
     position: relative;
-    left: 14px;
+    left: 12px;
   }
   
-  h2.dynamic {
+  h2.retail {
     font-size: 20px;
     position: relative;
-    left: 11px;
+    left: 24px;
   }

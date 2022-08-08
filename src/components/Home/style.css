@@ -33,5 +33,6 @@ div.home-container {
   
   span.name {
     color: midnightblue;
+    font-weight: bold ;
     font-size: 48px;
   }

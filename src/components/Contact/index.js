@@ -14,8 +14,9 @@ function Contact() {
 
       <div className="container page-container">
         <h1 data-aos="fade-up">Contact Me</h1>
-        <p>I'm always looking for new projects and career opportunities. <br />
-          If you want to hire me, work together, or ask me any questions, shoot me a message. </p>
+        <p>I'm always looking for new career opportunities. <br />
+          If you wish to hire me, work together, or ask me any questions,<br />
+          Feel free to reach out. </p>
 
         <div className="row justify-content-center contact-row">
           <div className="col-12">

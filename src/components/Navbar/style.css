@@ -19,3 +19,13 @@ nav i:hover {
   transform: scale(1.2);
   color: azure;
 }
+
+a.nav-link {
+    color: azure;
+    font-size: 15px;
+}
+
+a.nav-link:hover {
+    transform: scale(1.2);
+    color: azure;
+}

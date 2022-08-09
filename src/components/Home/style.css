@@ -1,5 +1,6 @@
 div.home-container {
-    padding-top: 175px;
+    padding-top: 200px;
+    margin-top: 100px;
   }
   
   section#home h1 {
@@ -18,13 +19,13 @@ div.home-container {
   
   section#home button {
     background: rgba(204, 204, 204, 0);
-    color: black;
-    border: 2px solid black;
+    color: midnightblue;
+    border: 2px solid midnightblue;
   }
     
   section#home button:hover {
     background-color: midnightblue;
-    color: white;
+    color: azure;
   }
   
   section#home i {

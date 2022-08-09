@@ -7,23 +7,23 @@ footer {
   footer i.back-to-top {
     position: relative;
     top: 25px;
-    color: black;
+    color: midnightblue;
     font-weight: bold;
   }
   
   footer i.back-to-top:hover {
-    color: #24a0ed;
+    color: midnightblue;
     transform: scale(1.2);
   }
   
   i.social-link {
     margin: 25px;
-    color: black;
+    color: midnightblue;
   }
   
   i.social-link:hover {
     transform: scale(1.2);
-    color: #24a0ed;
+    color: midnightblue;
   }
 
   footer p {

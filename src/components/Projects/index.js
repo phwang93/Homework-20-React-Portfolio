@@ -41,27 +41,45 @@ function Projects() {
     },
     {
       id: 4,
-      name: "Fitness Tracker",
-      image: "https://www.medibank.com.au/content/dam/livebetter/en/images/migrated/50e391fd048f7ca173459df82eff345e/Lightning_workout_Compressed.jpg",
-      tech: "Express / MongoDB",
-      link: "https://warm-spire-59876.herokuapp.com/",
-      github: "https://github.com/dylanbest15/Fitness-Tracker"
+      name: "Note Taker",
+      image: "https://github.com/phwang93/Homework-11-Express-Note-Taker/blob/main/imgs/demo1.gif?raw=true",
+      tech: "Express / Node.js",
+      link: "https://philips-note-taker.herokuapp.com",
+      github: "https://github.com/phwang93/Homework-11-Express-Note-Taker"
     },
     {
-        id: 4,
-        name: "Fitness Tracker",
-        image: "https://www.medibank.com.au/content/dam/livebetter/en/images/migrated/50e391fd048f7ca173459df82eff345e/Lightning_workout_Compressed.jpg",
-        tech: "Express / MongoDB",
-        link: "https://warm-spire-59876.herokuapp.com/",
-        github: "https://github.com/dylanbest15/Fitness-Tracker"
+        id: 5,
+        name: "E-Commerce BackEnd",
+        image: "https://github.com/phwang93/Homework-13-ORM/blob/main/imgs/Demo.gif?raw=true",
+        tech: "Node / Inquirer / MySQL / Sequelize / Insomnia / Dotenv",
+        link: "https://youtu.be/Rz3_PmW4LyY",
+        github: "https://github.com/phwang93/Homework-13-ORM"
     },
     {
-        id: 4,
-        name: "Fitness Tracker",
-        image: "https://www.medibank.com.au/content/dam/livebetter/en/images/migrated/50e391fd048f7ca173459df82eff345e/Lightning_workout_Compressed.jpg",
-        tech: "Express / MongoDB",
-        link: "https://warm-spire-59876.herokuapp.com/",
-        github: "https://github.com/dylanbest15/Fitness-Tracker"
+        id: 6,
+        name: "Tech Blog App",
+        image: "https://github.com/phwang93/Homework-14-Tech-Blog/raw/main/public/imgs/app.png",
+        tech: "Node / Inquirer / Express / MySQL / Sequelize / Dotenv / Handlebars / Insomnia / Bcrypt / Heroku / Bulma",
+        link: "https://ph-tech-app.herokuapp.com/",
+        github: "https://github.com/phwang93/Homework-14-Tech-Blog"
+    }
+    ,
+    {
+        id: 7,
+        name: "Social Network API",
+        image: "https://github.com/phwang93/Homework-18-SocialNetworkAPI/raw/main/imgs/Demo.gif",
+        tech: "Express / Moment / MongoDB / Mongoose ODM",
+        link: "https://youtu.be/jMBa5A6An2c",
+        github: "https://github.com/phwang93/Homework-18-SocialNetworkAPI"
+    }
+    ,
+    {
+        id: 8,
+        name: "JATE APP",
+        image: "https://github.com/phwang93/Homework-19-Text-Editor/raw/main/client/src/images/screenshot.png",
+        tech: "Node / Express / Heroku / Webpack",
+        link: "https://jate-app-ph.herokuapp.com/",
+        github: "https://github.com/phwang93/Homework-19-Text-Editor"
     }
   ]
 

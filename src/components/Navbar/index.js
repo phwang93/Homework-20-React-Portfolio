@@ -3,6 +3,7 @@ import "./style.css";
 import Pdf from "../assets/images/Resume.pdf";
 
 function Navbar() {
+    
   return (
     <nav className="navbar fixed-top navbar-expand-lg">
 

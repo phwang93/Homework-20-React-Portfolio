@@ -26,7 +26,7 @@ function Projects() {
     {
       id: 2,
       name: "ReadMe Generator",
-      image: "https://github.com/phwang93/Homework-9-README.md-Generator/blob/main/assets/demo/demo.gif?raw=true",
+      image: "https://github.com/phwang93/Homework-9-README.md-Generator/raw/main/assets/demo/SampleReadMe.png",
       tech: "Node.js / Inquirer.js",
       link: "https://github.com/phwang93/Homework-9-README.md-Generator/blob/main/assets/demo/demo.gif",
       github: "https://github.com/phwang93/Homework-9-README.md-Generator"
@@ -42,7 +42,7 @@ function Projects() {
     {
       id: 4,
       name: "Note Taker",
-      image: "https://github.com/phwang93/Homework-11-Express-Note-Taker/blob/main/imgs/demo1.gif?raw=true",
+      image: "https://github.com/phwang93/Homework-11-Express-Note-Taker/raw/main/imgs/screenshot.png",
       tech: "Express / Node.js",
       link: "https://philips-note-taker.herokuapp.com",
       github: "https://github.com/phwang93/Homework-11-Express-Note-Taker"

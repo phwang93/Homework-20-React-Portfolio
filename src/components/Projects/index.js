@@ -19,7 +19,7 @@ function Projects() {
       id: 1,
       name: 'Watch and Sell',
       image: "https://github.com/phwang93/Project-2-Watch-and-Sell/blob/main/public/imgs/app.png?raw=true",
-      tech: "MySQL / HandleBars / Node.js / Express",
+      tech: "Node / Express / Inquirer / MySQL / Sequelize / Dotenv / HandleBars / Heroku / Insomnia / Jest / LoDash / Bcrypt",
       link: "https://watch-sell-app.herokuapp.com/",
       github: "https://github.com/phwang93/Project-2-Watch-and-Sell",
     },
@@ -33,11 +33,11 @@ function Projects() {
     },
     {
       id: 3,
-      name: "Team Generator",
-      image: "https://github.com/phwang93/Homework-10-OOP-Engineering-Team/blob/main/imgs/demo2.gif?raw=true",
-      tech: "React.js / MySQL",
-      link: "https://github.com/phwang93/Homework-10-OOP-Engineering-Team/blob/main/imgs/demo2.gif",
-      github: "https://github.com/phwang93/Homework-10-OOP-Engineering-Team"
+      name: "Employee Management Tracker",
+      image: "https://github.com/phwang93/Homework-12-Employee-Management-Tracker/blob/main/imgs/screenshot.png?raw=true",
+      tech: "Node / Inquirer / MySQL",
+      link: "https://youtu.be/TS4lhvd99LE",
+      github: "https://github.com/phwang93/Homework-12-Employee-Management-Tracker"
     },
     {
       id: 4,

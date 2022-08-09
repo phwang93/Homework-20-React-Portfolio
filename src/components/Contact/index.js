@@ -18,6 +18,24 @@ function Contact() {
           If you wish to hire me, work together, or ask me any questions,<br />
           Feel free to reach out. </p>
 
+          <form className="was-validated mb-3">
+                <div className="form-group mb-2">
+                    <input type="text" className="form-control" id="nameFormControlInput" placeholder="Please enter your Name" required></input>
+                    <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div className="form-group mb-2">
+                    <input type="email" className="form-control" id="emailFormControlInput" placeholder="Please enter your Email" required></input>
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+
+                <div className="form-group mb-2">
+                    <textarea className="form-control" id="messageFormControlTextarea" rows="6" required></textarea>
+                    <div class="invalid-feedback">Please leave a message ◡̈ </div>
+                </div>
+                <input type="submit" value="SUBMIT" />
+            </form>
+
         <div className="row justify-content-center contact-row">
           <div className="col-12">
             <a href="mailto:pshwang93@gmail.com">

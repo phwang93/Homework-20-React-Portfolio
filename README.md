@@ -1,9 +1,9 @@
 # Homework-20-React-Portfolio
 
-Build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+Create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
 
 <p align = "center">
-<img alt="preview" src="/client/src/images/screenshot.png">
+<img alt="preview" src="/src/components/assets/images/screenshot.png">
 </p>
 
 ## User Story
@@ -44,7 +44,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 ## Deployed URL for the Application 
 
-Heroku for the application: [Heroku](https://jate-app-ph.herokuapp.com).
+Deployed Portfolio: [GH-Pages](.
 ## Table of Contents
 
 - [Homework-20-React-Portfolio](#homework-20-react-portfolio)
@@ -86,5 +86,5 @@ Heroku for the application: [Heroku](https://jate-app-ph.herokuapp.com).
 If you have any questions, please contact me at: 
 * Email: [pshwang93@gmail.com](mailto:pshwang93@gmail.com). 
 * GitHub: [phwang93](https://github.com/phwang93).
-* Repo: [Homework-19-Text-Editor](https://github.com/phwang93/Homework-19-Text-Editor).
-* Heroku: [JATE App](https://jate-app-ph.herokuapp.com).
+* Repo: [Homework-20-React-Portfolio](https://github.com/phwang93/Homework-20-React-Portfolio).
+Deployed Portfolio: [GH-Pages](.

@@ -14,26 +14,26 @@ function Contact() {
 
       <div className="container page-container">
         <h1 data-aos="fade-up">Contact Me</h1>
-        <p>I'm always looking for new career opportunities. <br />
-          If you wish to hire me, work together, or ask me any questions,<br />
-          Feel free to reach out. </p>
+        <p data-aos="fade-up">I'm always looking for new career opportunities. <br />
+          If you wish to connect, or ask me any questions,<br />
+          Feel free to reach out 🙂. </p>
 
           <form className="was-validated mb-3">
                 <div className="form-group mb-2">
-                    <input type="text" className="form-control" id="nameFormControlInput" placeholder="Please enter your Name" required></input>
-                    <div class="invalid-feedback">Please enter your name.</div>
+                    <input data-aos="fade-up" type="text" className="form-control" id="nameFormControlInput" placeholder="Please enter your Name" required></input>
+                    <div data-aos="fade-up" className="invalid-feedback">Please enter your name.</div>
                 </div>
 
                 <div className="form-group mb-2">
-                    <input type="email" className="form-control" id="emailFormControlInput" placeholder="Please enter your Email" required></input>
-                    <div class="invalid-feedback">Please enter a valid email.</div>
+                    <input data-aos="fade-up" type="email" className="form-control" id="emailFormControlInput" placeholder="Please enter your Email" required></input>
+                    <div data-aos="fade-up" className="invalid-feedback">Please enter a valid email.</div>
                 </div>
 
                 <div className="form-group mb-2">
-                    <textarea className="form-control" id="messageFormControlTextarea" rows="6" required></textarea>
-                    <div class="invalid-feedback">Please leave a message ◡̈ </div>
+                    <textarea data-aos="fade-up" className="form-control" id="messageFormControlTextarea" rows="6" required></textarea>
+                    <div data-aos="fade-up" className="invalid-feedback">Please leave a message ◡̈ </div>
                 </div>
-                <input type="submit" value="SUBMIT" />
+                <input data-aos="fade-up" type="submit" value="SUBMIT" />
             </form>
 
         {/* <div className="row justify-content-center contact-row">

@@ -20,7 +20,7 @@ const Home = () => {
           </h2>
           <a href="#about" className="animate__animated animate__fadeIn"> 
             <button className="btn btn-primary">Who am I?
-            <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i></button></a>
+            <i className="fa fa-angle-double-right fa-lg" aria-hidden="true"></i></button></a>
             </div>
   
       </section>

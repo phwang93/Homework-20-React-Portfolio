@@ -61,8 +61,11 @@ Deployed Portfolio: [GH-Pages](.
 ## Resources
 
 * [Node.js](https://nodejs.org/)
-* [Express](https://expressjs.com/)
-* [Heroku](https://heroku.com)
+* [React.js](https://reactjs.org)
+* [GH-Pages](https://pages.github.com)
+* [Bootstrap.css](https://getbootstrap.com)
+* [Animate.css](https://animate.style)
+* [Aos.js](https://michalsnik.github.io/aos/)
 ## Installation
 
 * Git Clone the Repo into your system
@@ -87,4 +90,4 @@ If you have any questions, please contact me at:
 * Email: [pshwang93@gmail.com](mailto:pshwang93@gmail.com). 
 * GitHub: [phwang93](https://github.com/phwang93).
 * Repo: [Homework-20-React-Portfolio](https://github.com/phwang93/Homework-20-React-Portfolio).
-Deployed Portfolio: [GH-Pages](.
+Deployed Portfolio: [GH-Pages](

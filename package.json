@@ -69,7 +69,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "push:pages": "git subtree push --prefix dist origin gh-pages"
   },
   "eslintConfig": {
     "extends": "react-app"
